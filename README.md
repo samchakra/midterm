@@ -1,39 +1,26 @@
 # Israel-Lebanon Cross-Border Attacks Dashboard
 
-## 1. Reproducibility and Code
-This project visualizes the Israel-Lebanon cross-border attacks that occurred from October 7, 2023, to October 11, 2024. The dashboard presents combined attack data, including the distribution of attack types, locations, and trends over time. You can view the public version of this Tableau dashboard through the following link:
+## Reproducibility and Code
+This dashboard visualizes the cross-border attacks between Israel and Lebanon from October 7, 2023, to October 11, 2024. It highlights the number of attacks, fatalities, top locations, and attack types. 
 
-[Tableau Public Dashboard Link](#) *(Add your Tableau public link here)*
+[View the Dashboard on Tableau Public](#https://public.tableau.com/app/profile/sam.chakra2765/viz/Midterm_17296386614830/Dashboard1?publish=yes) *(Add your Tableau public link here)*
 
-## 2. Readme File
+## Readme
 
-### Introduction: Domain Problem Characterization
-This dashboard explores the ongoing conflict between Israel and Lebanon, focusing specifically on cross-border attacks during the given time frame. The visualizations aim to answer key questions about the intensity and distribution of attacks, highlighting:
+### Introduction
+This project looks at the conflict between Israel and Lebanon, focusing on the scale and distribution of attacks during the specified time period. The goal is to better understand where the most significant activity is happening, what kinds of attacks are most common, and the overall humanitarian impact.
 
-- The number of attacks from Israel on Lebanon vs. Hezbollah attacks on Israel.
-- The distribution of fatalities on both sides.
-- The top locations affected by the conflict.
-- The types of attacks occurring most frequently.
-- The trends in weekly attack rates.
+### Problem to Solve
+I'm trying to analyze the frequency and distribution of these attacks, the fatalities involved, and how the conflict has unfolded over time. This helps provide a clearer picture of the crisis and aids in potential response efforts.
 
-### What is the problem you want to solve?
-The primary problem addressed by this dashboard is understanding the scale and distribution of cross-border attacks and their associated fatalities. The goal is to provide insights into where the majority of attacks are concentrated, what types of attacks are most common, and how these events have unfolded over time. This analysis is crucial for assessing the humanitarian impact and informing future diplomatic and military decisions.
-
-### Data/Operation Abstraction Design
-To create this dashboard, I prepared the data by:
-
-1. **Data Collection**: The data was sourced from the Armed Conflict Location & Event Data Project (ACLED) and filtered for events involving Israel and Hezbollah from October 7, 2023, to October 11, 2024.
-2. **Data Cleaning**: I created calculated fields to group and combine attack types and fatalities. Additionally, I cleaned the data by ensuring proper geographical mapping for each Admin 2 location in Israel and Lebanon.
-3. **Visualization Design**: The data is visualized in the following ways:
-   - A **map** with circles representing the number of attacks in each Admin 2 location, sized by total fatalities.
-   - A **bar chart** showing the top locations by number of attacks.
-   - A **bar chart** representing the distribution of different attack types.
-   - A **line chart** showing weekly attack trends for both Israeli and Hezbollah attacks.
+### Data/Operation Design
+- **Data Source**: The data is from ACLED, filtered for relevant events between Israel and Hezbollah.
+- **Prep**: Cleaned up and grouped attacks, fatalities, and mapped locations.
+- **Visuals**: 
+  - A map showing attacks and fatalities by region.
+  - Bar charts for top locations and attack types.
+  - A line chart showing attack trends over time.
 
 ### Future Work
-I plan to further improve this dashboard by:
-
-- **Adding more detailed filters**: I will include filters for specific types of attacks, time periods, and more granular locations.
-- **Incorporating additional data sources**: I aim to integrate data on humanitarian aid and displacement to provide a more comprehensive view of the conflict's impact on civilians.
-- **Predictive Analytics**: Future work could involve applying machine learning models to predict future attacks based on past data trends and geopolitical indicators.
+I’d like to add more filters, incorporate humanitarian data, and plot the route from the airport to my house in Lebanon to see how safe it would be. 
 
