@@ -3,7 +3,7 @@
 ## Reproducibility and Code
 This dashboard visualizes the cross-border attacks between Israel and Lebanon from October 7, 2023, to October 11, 2024. It highlights the number of attacks, fatalities, top locations, and attack types. 
 
-[View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/sam.chakra2765/viz/Midterm_17296386614830/Dashboard1?publish=yes) *(Add your Tableau public link here)*
+[View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/sam.chakra2765/viz/Midterm_17296386614830/Dashboard1?publish=yes) 
 
 ## Readme
 
