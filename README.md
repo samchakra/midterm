@@ -14,7 +14,7 @@ This project looks at the conflict between Israel and Lebanon, focusing on the s
 I'm trying to analyze the frequency and distribution of these attacks, the fatalities involved, and how the conflict has unfolded over time. This helps provide a clearer picture of the crisis and aids in potential response efforts.
 
 ### Data/Operation Design
-- **Data Source**: The data is from ACLED, filtered for relevant events between Israel and Hezbollah.
+- **Data Source**: The data is from [ACLED](https://acleddata.com/data/), filtered for relevant events between Israel and Hezbollah.
 - **Prep**: Cleaned up and grouped attacks, fatalities, and mapped locations.
 - **Visuals**: 
   - A map showing attacks and fatalities by region.
